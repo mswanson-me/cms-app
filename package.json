@@ -1,0 +1,27 @@
+{
+  "name": "cms-app",
+  "version": "1.0.0",
+  "description": "Node.js CMS app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mswanson-me/cms-app.git"
+  },
+  "author": "Michael Swanson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mswanson-me/cms-app/issues"
+  },
+  "homepage": "https://github.com/mswanson-me/cms-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mongoose": "^5.9.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
